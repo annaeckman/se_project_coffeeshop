@@ -167,6 +167,8 @@
 }
 
 .recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
   font-family: "Inter", Ariel, sans-serif;
   font-style: normal;
   font-weight: 500;
