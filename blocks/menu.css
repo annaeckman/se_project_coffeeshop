@@ -1,0 +1,17 @@
+.menu {
+  background-color: #fff;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.menu__title {
+  margin: 0 auto;
+}
+
+.menu__subtitle {
+}
+
+.menu__cards {
+}
