@@ -7,11 +7,34 @@
 }
 
 .menu__title {
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 24px;
+  max-width: 780px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menu__subtitle {
+  display: flex;
+  justify-content: center;
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px 0;
+  justify-content: center;
+  gap: 100px;
 }
