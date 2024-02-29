@@ -71,6 +71,7 @@
   font-size: 16px;
   padding: 0 0 0 80px;
   margin-bottom: 0;
+  margin-top: 0;
 }
 
 .header__hours-list {
@@ -91,4 +92,5 @@
   color: #838383;
   margin-right: 80px;
   margin-bottom: 40px;
+  margin-top: 0;
 }

@@ -20,6 +20,7 @@
 }
 .footer__social-heading {
   margin-bottom: 20px;
+  margin-top: 0;
   font-family: "Inter", "Times New Roman", serif;
   font-style: normal;
   font-weight: bold;

@@ -27,6 +27,11 @@
   margin-top: 0;
 }
 
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+}
+
 .form__input {
   height: 60px;
   padding: 0;
