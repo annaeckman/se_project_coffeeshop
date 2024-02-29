@@ -49,6 +49,10 @@
   color: #fff;
 }
 
+.about__paragraph:last-of-type {
+  margin: 0;
+}
+
 .about__circle {
   position: absolute;
   top: -152px;

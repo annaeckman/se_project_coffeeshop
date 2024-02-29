@@ -1,6 +1,6 @@
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: white;
   padding: 60px 80px;
   margin: auto;
@@ -46,6 +46,9 @@
 
 .footer__list-item:last-of-type {
   margin-bottom: 0;
+}
+
+.footer__social-column {
 }
 
 .footer__social-link {

@@ -7,6 +7,8 @@
   background-color: #fff;
   background-image: url("../images/background_header.svg");
   background-size: cover;
+  position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -48,7 +50,7 @@
   top: 124px;
   max-width: 646px;
   max-height: 568px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .header__footer {
@@ -65,13 +67,21 @@
   color: #838383;
 }
 
+.header__hours-title {
+  font-size: 16px;
+  padding: 0 0 0 80px;
+  margin-bottom: 0;
+}
+
 .header__hours-list {
   margin-left: 80px;
   margin-bottom: 40px;
+  margin-top: 0;
   padding: 0;
 }
 
 .header__hours {
+  margin: 0;
   list-style-type: none;
 }
 

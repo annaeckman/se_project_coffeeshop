@@ -3,13 +3,19 @@
 }
 
 .card__title {
-  text-indent: 40px;
+  margin-top: 0;
   margin-bottom: 32px;
+  margin-left: 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
 }
 
 .card__list-item {
@@ -24,5 +30,8 @@
 }
 
 .card__list-divider {
-  flex-grow: 3;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #838383;
+  flex-grow: 1;
 }
